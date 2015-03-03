@@ -1,5 +1,5 @@
-Un tout petit blog
-Cahier des charges
+##Un tout petit blog
+#Cahier des charges
 
 Le blog affichera des articles dans une page selon un ordre chronologique inverse, du plus récent au plus ancien.
 
@@ -19,7 +19,7 @@ Au moment de la suppression d’un article, une confirmation doit être demandé
 
 Les articles qui ne sont pas associés à une catégorie doivent être affichés malgré tout.
 
-Base de données
+#Base de données
 
 Deux tables sont nécessaires, posts et categories. La relation est de type 1 à n, ce qui implique donc que la table posts doit contenir en plus des champs propres aux articles, un champ qui référence une catégorie.
 
