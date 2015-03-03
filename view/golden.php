@@ -38,7 +38,7 @@
 						<td>
 								<select name="categorie" id="categorie">
 					    				<?php foreach($categories as $categorie): ?>
-								       	 <option>
+								       	 <option value="<?php echo $categorie['id']; ?>">
 								         	<?php echo $categorie["name"]; ?>
 								         </option> 
 										<?php endforeach; ?>
